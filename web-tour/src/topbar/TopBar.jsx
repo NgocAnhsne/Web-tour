@@ -4,7 +4,7 @@ export default function TopBar() {
   return (
     <div className='top'>
         <div className='topLeft' >
-            <i class="fa-solid fa-seedling"></i>
+            <i class="topIcon fa-solid fa-seedling"></i>
         </div>
         <div className='topCenter' >
             <ul className='topList'>
@@ -14,7 +14,7 @@ export default function TopBar() {
             </ul>
         </div>
         <div className='topRight' >
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="topSearchIcon fa-solid fa-magnifying-glass"></i>
         </div>
     </div>
   )
